@@ -1,35 +1,37 @@
-TP53 Insight Summary (as of 2025-11-24)
+rs429358 Insight Summary (as of 2025-11-24)
 ===========================================================
-Entity: TP53 (tumor protein p53) — Gene ID: 7157 (NCBI)
+Entity: rs429358 (APOE) — dbSNP ID: rs429358
 
-Functional role
-- Tumor suppressor transcription factor that responds to cellular stress to regulate target genes, inducing cell cycle arrest, apoptosis, senescence, DNA repair, and metabolic changes.
-- Genomic location: 17p13.1; RefSeq status REVIEWED; multiple transcript variants and isoforms reported.
+Aliases / HGVS
+- Gene: APOE (Entrez Gene ID: 348)
+- Protein change (common numbering): p.Cys112Arg (C112R); RefSeq isoform numbering: p.Cys130Arg
+- Representative transcript: NM_000041.4:c.388T>C
 
-Disease associations
-- Germline and somatic TP53 mutations are linked to a wide range of human cancers.
-- Hereditary cancer syndrome: Li-Fraumeni syndrome (LFS). Professional guidelines (ACMG) recommend reporting pathogenic/likely pathogenic TP53 variants on clinical sequencing.
+Functional role (gene-level context)
+- APOE encodes apolipoprotein E, a major apolipoprotein involved in lipid transport and the catabolism of triglyceride-rich lipoproteins; it plays roles in neuronal lipid trafficking and injury response.
+- rs429358 is a missense variant in exon 4 of APOE that, together with rs7412, defines the APOE ε haplotypes (ε2, ε3, ε4). The C allele at rs429358 is part of the ε4 haplotype.
 
-Known variants (examples; not exhaustive)
-1) NM_000546.6:c.524G>A (p.Arg175His, R175H)
-   - Type: Missense, DNA-binding domain hotspot
-   - ClinVar: Pathogenic; associated with Li-Fraumeni syndrome and hereditary cancer predisposition
-   - Reference: ClinVar VCV000012374
+Disease/trait associations (selected, not exhaustive)
+- Late-onset Alzheimer’s disease (AD): the ε4 haplotype (which includes the rs429358 C allele) is a well-established genetic risk factor; risk increases in a dose-dependent manner (e.g., e3/e4 < e4/e4).
+- Lipid traits and cardiovascular risk: APOE variation influences plasma lipids and related disorders; clinical impact depends on haplotype background and other factors.
 
-2) NM_000546.6:c.743G>A (p.Arg248Gln, R248Q)
-   - Type: Missense, DNA-binding domain hotspot
-   - ClinVar: Pathogenic; reported in Li-Fraumeni syndrome and multiple cancers
-   - Reference: ClinVar VCV000012356
+Known clinical records / examples
+1) ClinVar records for NM_000041.4:c.388T>C (p.Cys130Arg)
+   - Multiple submissions link this variant (rs429358) to Alzheimer disease and other phenotypes; interpretations vary across submitters and contexts.
+   - Example accessions: RCV000019448 (Alzheimer disease 2), RCV000991302 (Alzheimer disease), RCV001262791 (lipoprotein-related phenotype).
 
-3) NM_000546.6:c.672+1G>A
-   - Type: Splice donor variant
-   - ClinVar: Pathogenic; associated with Li-Fraumeni syndrome
-   - Reference: ClinVar RCV000200333
+Genotype/haplotype notes
+- ε haplotypes are defined by rs429358 and rs7412:
+  • ε3: rs429358=T and rs7412=C
+  • ε4: rs429358=C and rs7412=C
+  • ε2: rs429358=T and rs7412=T
+- Clinical interpretation and risk counseling should consider full ε haplotype (both SNPs), ancestry, family history, and non-genetic factors.
 
 Primary sources (NCBI)
-- NCBI Gene: TP53 (Gene ID: 7157) — summary, genomic context, associated conditions, and professional guidelines.
-- NCBI ClinVar: Variant records VCV000012374 (p.R175H), VCV000012356 (p.R248Q), and RCV000200333 (c.672+1G>A).
+- NCBI ClinVar entries for NM_000041.4:c.388T>C (p.Cys130Arg), including RCV000019448, RCV000991302, and RCV001262791.
+- NCBI RefSeq record NM_000041.4 (APOE) for transcript and gene function summary.
+- MedlinePlus Genetics (NIH/NLM) summary for APOE gene function and Alzheimer’s risk context.
 
 Notes
-- This is a concise, non-exhaustive summary intended for quick reference.
-- For clinical use, consult the full NCBI Gene and ClinVar entries and relevant practice guidelines.
+- This summary is for information only and is not a substitute for clinical genetic testing or counseling.
+- For clinical use, consult the full NCBI dbSNP/ClinVar and gene resources, laboratory reports, and ACMG/AMP guidelines.

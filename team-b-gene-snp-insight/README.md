@@ -43,6 +43,7 @@ React + Tailwind-friendly components, no heavy UI deps needed.
 
 ## Architecture 
 
+```bash
 React (Vite/CRA)
   ├─ Fetch MyGene.info / Ensembl for base facts
   ├─ Optional POST /api/claude  (local Express server)
@@ -53,7 +54,7 @@ Express server (server.js)
   └─ POST /api/claude → Anthropic Messages API
       - Reads ANTHROPIC_API_KEY from .env
       - Returns concise JSON-like summary text
-
+```
 
 ## Setup (dev)
 
